@@ -1,0 +1,125 @@
+@media only screen and (max-width : 500px) {
+    .container{
+        border-radius: 1rem;
+    }
+    
+    .design-body{
+        width: 100%;
+        padding: 0 0;
+        height: 100vh;
+    }
+
+
+    /* header */
+    .form-validate-area{
+        display: none;
+    }
+
+    .header{
+        background-image: linear-gradient(90deg,#A03CEA, #FB6564);
+        padding: 0 5%;
+        width: 100%;
+        height: 20vh;
+        padding: 0;
+    }
+
+    .logo-area{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0.2rem;
+    }
+    .logo{
+        filter: brightness(0) invert(1);
+    }
+
+    /* header */
+    .bonus-white{
+        background-image: linear-gradient(90deg,#A03CEA, #FB6564);
+        width: 100%;
+        height: 7vh;
+    }
+
+    .white{
+        width: 100%;
+        height: 11vh;
+        background-color: #F8F4F2;
+        border-top-left-radius: 50% ;
+        border-top-right-radius: 50% ;
+    }
+    /* section */
+    .index-left{
+        display: none;
+    }
+
+    .index-right{
+        max-width: 100%;
+    }
+
+    /* index right */
+
+    .index-right{
+        max-width: 100%;
+        width: 100%;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .index-right-top h2{
+        font-size: 1.5rem;
+    }
+
+    .index-right-top h3{
+        font-size: 1rem;
+    }
+    /* section */
+    .index-right-bot{
+        width: 100%;
+    }
+    .button-signup{
+        width: 100%;
+        background-image: linear-gradient(90deg,#A03CEA, #FB6564);
+    }
+    /* form */
+    .form-validate-area-mobile{
+        width: 100%;
+        margin-top: 6vh;
+    }
+    .form-validate-design-mobile{
+        width: 100%;
+    }
+    .form-box{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    .form-box a{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+    .box-input{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .button-login-area{
+        width: 100%;
+        margin: 1.3rem 0;
+        padding: 0.5rem;
+    }
+
+    .button-login{
+        padding: 0.7rem;
+    }
+    /* form */
+}
+
+@media only screen and (min-width : 1024px){
+    .form-validate-area-mobile{
+        display: none;
+    }
+}
